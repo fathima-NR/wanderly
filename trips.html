@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Curated Trips — Wanderly</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header id="header"></header>
+
+  <section class="page-hero" style="background-image:url('https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?auto=format&fit=crop&w=2000&q=80')">
+    <div class="container">
+      <div class="breadcrumb"><a href="index.html">Home</a><i data-lucide="chevron-right"></i><span>Trips</span></div>
+      <h1>Curated Trips for <span class="serif">Every Explorer</span></h1>
+      <p>All-inclusive itineraries with flights, premium stays, local guides and unforgettable experiences.</p>
+    </div>
+  </section>
+
+  <section class="section bg-soft">
+    <div class="container">
+      <div class="toolbar">
+        <div class="filters" id="tripFilters">
+          <button class="filter-btn active" data-filter="all">All Trips</button>
+          <button class="filter-btn" data-filter="beach">Beach</button>
+          <button class="filter-btn" data-filter="culture">Culture</button>
+          <button class="filter-btn" data-filter="adventure">Adventure</button>
+          <button class="filter-btn" data-filter="luxury">Luxury</button>
+        </div>
+        <div class="input-icon">
+          <i data-lucide="arrow-up-down"></i>
+          <select id="tripSort">
+            <option value="popular">Sort: Most Popular</option>
+            <option value="price-asc">Price: Low to High</option>
+            <option value="price-desc">Price: High to Low</option>
+            <option value="rating">Highest Rated</option>
+            <option value="duration">Shortest Duration</option>
+          </select>
+        </div>
+      </div>
+      <p class="results-count" id="tripCount"></p>
+      <div class="grid grid-3" id="allTrips"></div>
+    </div>
+  </section>
+
+  <section class="section bg-dark">
+    <div class="container">
+      <div class="section-head center">
+        <span class="eyebrow">What's Included</span>
+        <h2 class="h2">Every Trip <span class="serif">Includes</span></h2>
+        <p class="lead">No hidden fees, no surprises — just seamless travel from start to finish.</p>
+      </div>
+      <div class="grid grid-4">
+        <div class="feature-card reveal"><div class="ic-tile"><i data-lucide="plane-takeoff"></i></div><h4>Return Flights</h4><p>Round-trip flights with trusted, award-winning airlines.</p></div>
+        <div class="feature-card reveal"><div class="ic-tile"><i data-lucide="hotel"></i></div><h4>Premium Stays</h4><p>Handpicked 4★ and 5★ hotels, villas and resorts.</p></div>
+        <div class="feature-card reveal"><div class="ic-tile"><i data-lucide="compass"></i></div><h4>Local Guides</h4><p>Expert guides who know every hidden gem.</p></div>
+        <div class="feature-card reveal"><div class="ic-tile"><i data-lucide="shield-check"></i></div><h4>Free Cancellation</h4><p>Flexible bookings — cancel up to 14 days before.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <footer id="footer"></footer>
+
+  <script src="https://unpkg.com/lucide@0.468.0/dist/umd/lucide.min.js"></script>
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

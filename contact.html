@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact & Booking — Wanderly</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header id="header"></header>
+
+  <section class="page-hero" style="background-image:url('https://images.unsplash.com/photo-1488085061387-422e29b40080?auto=format&fit=crop&w=2000&q=80'); padding-bottom:160px">
+    <div class="container">
+      <div class="breadcrumb"><a href="index.html">Home</a><i data-lucide="chevron-right"></i><span>Contact</span></div>
+      <h1>Plan Your <span class="serif">Dream Trip</span></h1>
+      <p>Share your travel plans and our experts will craft the perfect itinerary for you.</p>
+    </div>
+  </section>
+
+  <div class="container contact-cards">
+    <div class="contact-card"><div class="ic-tile"><i data-lucide="phone"></i></div><div><strong>Call Us</strong><span>+971 4 123 4567</span></div></div>
+    <div class="contact-card"><div class="ic-tile"><i data-lucide="mail"></i></div><div><strong>Email Us</strong><span>hello@wanderly.com</span></div></div>
+    <div class="contact-card"><div class="ic-tile"><i data-lucide="map-pin"></i></div><div><strong>Visit Us</strong><span>Marina Plaza, Dubai Marina</span></div></div>
+  </div>
+
+  <section class="section">
+    <div class="container contact-layout">
+      <div class="form-card reveal">
+        <h2>Book a Trip</h2>
+        <p>Fill in the form and we'll get back to you within 24 hours.</p>
+        <form data-msg="✅ Thank you! Our travel expert will contact you shortly.">
+          <div class="form-grid">
+            <div class="field"><label>Full Name</label><input type="text" required placeholder="John Doe"></div>
+            <div class="field"><label>Email Address</label><input type="email" required placeholder="john@email.com"></div>
+            <div class="field"><label>Phone Number</label><input type="tel" placeholder="+971 50 000 0000"></div>
+            <div class="field"><label>Trip</label><select id="tripSelect"><option value="">Custom / Not sure yet</option></select></div>
+            <div class="field"><label>Travel Date</label><input type="date"></div>
+            <div class="field"><label>Travelers</label><select><option>1</option><option selected>2</option><option>3</option><option>4</option><option>5+</option></select></div>
+            <div class="field full"><label>Message</label><textarea placeholder="Tell us about your dream trip..."></textarea></div>
+            <div class="full"><button class="btn btn-primary" type="submit">Send Request <i data-lucide="send"></i></button></div>
+          </div>
+        </form>
+        <p class="form-msg" style="color:var(--primary)"></p>
+      </div>
+      <div class="map-card reveal">
+        <iframe src="https://maps.google.com/maps?q=Dubai%20Marina&z=14&output=embed" loading="lazy" title="Office location"></iframe>
+      </div>
+    </div>
+  </section>
+
+  <section class="section bg-soft">
+    <div class="container">
+      <div class="section-head center">
+        <span class="eyebrow">FAQ</span>
+        <h2 class="h2">Frequently Asked <span class="serif">Questions</span></h2>
+      </div>
+      <div class="faq">
+        <details open><summary>What is included in the trip price?</summary><p>All packages include return flights, accommodation, daily breakfast, airport transfers, guided tours and 24/7 support. Specific inclusions are listed on each trip.</p></details>
+        <details><summary>Can I customise an existing package?</summary><p>Absolutely. Our travel experts can adjust dates, hotels, activities and duration to match your preferences and budget.</p></details>
+        <details><summary>What is your cancellation policy?</summary><p>You can cancel free of charge up to 14 days before departure. Cancellations within 14 days may be subject to supplier fees.</p></details>
+        <details><summary>Do you help with visas and travel insurance?</summary><p>Yes — we provide visa guidance for every destination and offer comprehensive travel insurance options at checkout.</p></details>
+      </div>
+    </div>
+  </section>
+
+  <footer id="footer"></footer>
+
+  <script src="https://unpkg.com/lucide@0.468.0/dist/umd/lucide.min.js"></script>
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

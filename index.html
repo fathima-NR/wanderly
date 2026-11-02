@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Wanderly — curated trips, handpicked destinations and luxury stays around the world.">
+  <title>Wanderly — Travel More, Live Bolder</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header id="header"></header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero-bg"></div>
+    <div class="container">
+      <div>
+        <div class="pill"><span class="pill-dot">★ 4.9</span> Trusted by 12,000+ happy travelers</div>
+        <h1>Travel More,<br><span class="serif">Live Bolder.</span></h1>
+        <p class="hero-text">Discover handpicked destinations, curated journeys and luxury stays — planned by travel experts so you can focus on making memories.</p>
+        <div class="hero-actions">
+          <a href="trips.html" class="btn btn-primary">Explore Trips <i data-lucide="arrow-right"></i></a>
+          <a href="destinations.html" class="btn btn-ghost">View Destinations</a>
+        </div>
+        <div class="hero-trust">
+          <div class="avatars">
+            <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=100&q=80" alt="">
+            <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=100&q=80" alt="">
+            <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&w=100&q=80" alt="">
+            <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=100&q=80" alt="">
+          </div>
+          <div><strong>12K+ Travelers</strong><span>explored the world with us</span></div>
+        </div>
+      </div>
+
+      <div class="hero-cards">
+        <div class="float-card photo">
+          <img src="https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?auto=format&fit=crop&w=600&q=80" alt="Santorini">
+          <h4>Santorini, Greece</h4>
+          <div class="row"><span>7 Days · All inclusive</span><span>★ 4.9</span></div>
+        </div>
+        <div class="float-card stat">
+          <div class="ic"><i data-lucide="shield-check"></i></div>
+          <div><strong>100% Secure</strong><span>Free cancellation up to 14 days</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Search -->
+  <div class="search-wrap">
+    <div class="container">
+      <form class="search-card" id="searchForm">
+        <div class="search-field">
+          <div class="ic"><i data-lucide="map-pin"></i></div>
+          <div><label>Destination</label>
+            <select><option>Where to?</option><option>Santorini</option><option>Bali</option><option>Kyoto</option><option>Maldives</option><option>Dubai</option></select>
+          </div>
+        </div>
+        <div class="search-field">
+          <div class="ic"><i data-lucide="calendar"></i></div>
+          <div><label>Check-in</label><input type="date"></div>
+        </div>
+        <div class="search-field">
+          <div class="ic"><i data-lucide="calendar-check"></i></div>
+          <div><label>Check-out</label><input type="date"></div>
+        </div>
+        <div class="search-field">
+          <div class="ic"><i data-lucide="users"></i></div>
+          <div><label>Guests</label>
+            <select><option>2 Adults</option><option>1 Adult</option><option>2 Adults, 2 Kids</option><option>Group (6+)</option></select>
+          </div>
+        </div>
+        <button class="btn btn-primary" type="submit"><i data-lucide="search"></i> Search</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Featured in -->
+  <section class="section-sm">
+    <div class="container logos">
+      <p>As featured in</p>
+      <span>Forbes</span><span>Condé Nast</span><span>LONELY PLANET</span><span>Travel+Leisure</span><span>TripAdvisor</span>
+    </div>
+  </section>
+
+  <!-- Destinations -->
+  <section class="section bg-soft">
+    <div class="container">
+      <div class="section-head">
+        <div>
+          <span class="eyebrow">Top Destinations</span>
+          <h2 class="h2">Popular <span class="serif">Destinations</span></h2>
+          <p class="lead">The places our travelers love most this season — from sun-soaked islands to snow-capped peaks.</p>
+        </div>
+        <a href="destinations.html" class="btn btn-outline">All Destinations <i data-lucide="arrow-right"></i></a>
+      </div>
+      <div class="bento" id="homeDestinations"></div>
+    </div>
+  </section>
+
+  <!-- Why us -->
+  <section class="section">
+    <div class="container why">
+      <div class="collage reveal">
+        <img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=900&q=80" alt="Mountain lake">
+        <img src="https://images.unsplash.com/photo-1530789253388-582c481c54b0?auto=format&fit=crop&w=700&q=80" alt="Traveler">
+        <div class="exp-badge"><strong>15+</strong><span>Years of crafting<br>journeys</span></div>
+      </div>
+      <div class="reveal">
+        <span class="eyebrow">Why Choose Us</span>
+        <h2 class="h2">Journeys Designed <span class="serif">Around You</span></h2>
+        <p class="lead">We take care of every detail so your only job is to enjoy the moment.</p>
+        <div class="feature-list">
+          <div class="feature-row"><div class="ic-tile"><i data-lucide="compass"></i></div><div><h4>Expert Local Guides</h4><p>Insiders who reveal hidden gems you won't find in any guidebook.</p></div></div>
+          <div class="feature-row"><div class="ic-tile"><i data-lucide="badge-dollar-sign"></i></div><div><h4>Best Price Guarantee</h4><p>Found it cheaper? We'll match the price — no questions asked.</p></div></div>
+          <div class="feature-row"><div class="ic-tile"><i data-lucide="headphones"></i></div><div><h4>24/7 Travel Support</h4><p>Real people ready to help, wherever you are in the world.</p></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Trips -->
+  <section class="section bg-dark">
+    <div class="container">
+      <div class="section-head">
+        <div>
+          <span class="eyebrow">Curated Packages</span>
+          <h2 class="h2">Curated Trips for <span class="serif">Every Explorer</span></h2>
+          <p class="lead">All-inclusive itineraries with flights, premium stays, guides and handpicked experiences.</p>
+        </div>
+        <a href="trips.html" class="btn btn-white">View All Trips <i data-lucide="arrow-right"></i></a>
+      </div>
+      <div class="grid grid-3" id="homeTrips"></div>
+    </div>
+  </section>
+
+  <!-- Stats -->
+  <section class="section-sm">
+    <div class="container stats-grid">
+      <div class="stat-item"><strong data-count="250" data-suffix="+">0</strong><span>Destinations</span></div>
+      <div class="stat-item"><strong data-count="12" data-suffix="K+">0</strong><span>Happy Travelers</span></div>
+      <div class="stat-item"><strong data-count="4.9" data-suffix="★">0</strong><span>Average Rating</span></div>
+      <div class="stat-item"><strong data-count="80" data-suffix="+">0</strong><span>Countries</span></div>
+    </div>
+  </section>
+
+  <!-- App -->
+  <section class="section" style="padding-top:40px">
+    <div class="container">
+      <div class="app-box">
+        <div class="reveal">
+          <span class="eyebrow on-dark" style="color:#7fa7ff">Wanderly App</span>
+          <h2 class="h2">Everything You Need in <span class="serif">One App</span></h2>
+          <p class="lead">Book trips, manage your itinerary, get real-time flight alerts and chat with your guide — all from your pocket.</p>
+          <div class="app-features">
+            <div class="app-feature"><div class="ic-tile"><i data-lucide="ticket"></i></div><div><strong>Instant Booking</strong><span>Reserve in seconds</span></div></div>
+            <div class="app-feature"><div class="ic-tile"><i data-lucide="bell-ring"></i></div><div><strong>Live Alerts</strong><span>Flight & gate updates</span></div></div>
+          </div>
+          <a href="app.html" class="btn btn-white">Discover the App <i data-lucide="arrow-right"></i></a>
+          <div style="height:80px"></div>
+        </div>
+        <div class="phone-stage">
+          <div class="phone-badge"><div class="ic-tile"><i data-lucide="check"></i></div><div><strong>Booking Confirmed</strong><span>Bali · 6 Days</span></div></div>
+          <div class="phone">
+            <div class="phone-screen">
+              <div class="phone-top"><small>Good morning,</small><h4>Where to next? ✈</h4></div>
+              <div class="phone-search"><i data-lucide="search"></i> Search destinations</div>
+              <div class="phone-list">
+                <div class="phone-item"><img src="https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?auto=format&fit=crop&w=200&q=80" alt=""><div><strong>Santorini</strong><span>Dec 12 · 7 days</span></div><em>Booked</em></div>
+                <div class="phone-item"><img src="https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=200&q=80" alt=""><div><strong>Bali</strong><span>Jan 04 · 6 days</span></div><em>Booked</em></div>
+                <div class="phone-item"><img src="https://images.unsplash.com/photo-1514282401047-d79a71a590e8?auto=format&fit=crop&w=200&q=80" alt=""><div><strong>Maldives</strong><span>Feb 20 · 5 days</span></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="section bg-dark">
+    <div class="container testi-layout">
+      <div class="reveal">
+        <span class="eyebrow">Testimonials</span>
+        <h2 class="h2">Real People, <span class="serif">Brighter Stories</span></h2>
+        <div class="rating-summary">
+          <strong>4.9</strong>
+          <div><span class="stars"><i data-lucide="star"></i><i data-lucide="star"></i><i data-lucide="star"></i><i data-lucide="star"></i><i data-lucide="star"></i></span><br><span style="color:#a9b6d0;font-size:.9rem">Based on 3,500+ reviews</span></div>
+        </div>
+        <div class="slider-nav">
+          <button class="icon-btn" id="prevSlide" aria-label="Previous"><i data-lucide="arrow-left"></i></button>
+          <button class="icon-btn" id="nextSlide" aria-label="Next"><i data-lucide="arrow-right"></i></button>
+          <a href="stories.html" class="btn btn-ghost" style="margin-left:8px">All Stories</a>
+        </div>
+      </div>
+      <div>
+        <div class="slider"><div class="slider-track" id="sliderTrack"></div></div>
+        <div class="dots" id="sliderDots"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="section">
+    <div class="container">
+      <div class="cta reveal">
+        <div>
+          <h2>Get Travel Inspiration <span class="serif">Straight to Your Inbox</span></h2>
+          <p>Exclusive deals, new destinations and expert travel tips — once a week, never spam.</p>
+        </div>
+        <div>
+          <form class="newsletter" data-msg="🎉 You're subscribed! Check your inbox.">
+            <input type="email" placeholder="Enter your email address" required>
+            <button class="btn btn-primary" type="submit">Subscribe</button>
+          </form>
+          <p class="form-note"><i data-lucide="lock"></i> We respect your privacy. Unsubscribe anytime.</p>
+          <p class="form-msg"></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer id="footer"></footer>
+
+  <script src="https://unpkg.com/lucide@0.468.0/dist/umd/lucide.min.js"></script>
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

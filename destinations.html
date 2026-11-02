@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Destinations — Wanderly</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header id="header"></header>
+
+  <section class="page-hero" style="background-image:url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=2000&q=80')">
+    <div class="container">
+      <div class="breadcrumb"><a href="index.html">Home</a><i data-lucide="chevron-right"></i><span>Destinations</span></div>
+      <h1>Popular <span class="serif">Destinations</span></h1>
+      <p>From sun-soaked islands to snow-capped peaks — find the place that's calling your name.</p>
+    </div>
+  </section>
+
+  <section class="section bg-soft">
+    <div class="container">
+      <div class="toolbar">
+        <div class="filters" id="destFilters">
+          <button class="filter-btn active" data-filter="all">All Regions</button>
+          <button class="filter-btn" data-filter="europe">Europe</button>
+          <button class="filter-btn" data-filter="asia">Asia</button>
+          <button class="filter-btn" data-filter="middle-east">Middle East</button>
+          <button class="filter-btn" data-filter="americas">Americas</button>
+        </div>
+        <div class="input-icon">
+          <i data-lucide="search"></i>
+          <input type="search" id="destSearch" placeholder="Search destinations...">
+        </div>
+      </div>
+      <p class="results-count" id="destCount"></p>
+      <div class="grid grid-4" id="allDestinations"></div>
+    </div>
+  </section>
+
+  <section class="section-sm">
+    <div class="container stats-grid">
+      <div class="stat-item"><strong data-count="250" data-suffix="+">0</strong><span>Destinations</span></div>
+      <div class="stat-item"><strong data-count="80" data-suffix="">0</strong><span>Countries</span></div>
+      <div class="stat-item"><strong data-count="1200" data-suffix="+">0</strong><span>Hotels & Resorts</span></div>
+      <div class="stat-item"><strong data-count="24" data-suffix="/7">0</strong><span>Travel Support</span></div>
+    </div>
+  </section>
+
+  <section class="section" style="padding-top:20px">
+    <div class="container">
+      <div class="cta reveal">
+        <div>
+          <h2>Can't Decide <span class="serif">Where to Go?</span></h2>
+          <p>Tell us what you love and our travel experts will craft a personalised itinerary — free of charge.</p>
+        </div>
+        <div><a href="contact.html" class="btn btn-white">Talk to an Expert <i data-lucide="arrow-right"></i></a></div>
+      </div>
+    </div>
+  </section>
+
+  <footer id="footer"></footer>
+
+  <script src="https://unpkg.com/lucide@0.468.0/dist/umd/lucide.min.js"></script>
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
